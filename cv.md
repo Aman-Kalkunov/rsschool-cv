@@ -11,7 +11,9 @@
 
 By education I am a civil engineer, a couple of years ago I got carried away with programming. When I realized that programming as a hobby was not enough for me, I signed up for a front-end developer course.
 
-I learn quickly because I love it. I strive for high results, because I want to change not only my profession, but also my life.
+I learn quickly because I love it.
+
+I strive for high results, because I want to change not only my profession, but also my life.
 
 ### Skills
 
