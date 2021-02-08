@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 50px;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  padding: 40px;
+  background: linear-gradient(90deg, #b8c8dc 4%, #5295d8 99%);
+}
+
+.avatar {
+  width: 250px;
+  border: 0px solid #000;
+  border-radius: 50%;
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.7);
+}
+
+.person {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 100px;
+  color: #fff;
+}
+
+.name {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.profession {
+  font-size: 0.8rem;
+}
+
+.main {
+  display: flex;
+  background-color: #f1f3f3;
+}
+
+.left {
+  width: 35%;
+  min-width: 350px;
+  padding: 0 40px;
+  text-align: center;
+  background: linear-gradient(#5295d8 4%, #b8c8dc 99%);
+}
+
+.left__heading {
+  border-bottom: 2px solid #f1f3f3;
+  font-size: 1rem;
+  color: #5295d8;
+  margin-bottom: 30px;
+  padding: 20px 0;
+}
+
+.left .left__heading {
+  color: #f1f3f3;
+}
+
+.cell {
+  margin-bottom: 40px;
+}
+
+.cell__heading {
+  padding-bottom: 25px;
+  font-size: 0.7rem;
+  color: rgb(87, 84, 84);
+}
+
+.cell__list {
+  font-size: 0.3rem;
+}
+
+.cell__li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.cell__li:last-child {
+  border-bottom: 2px solid #f1f3f3;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+
+.cell__name {
+  width: 50%;
+  text-align: start;
+}
+
+.cell__value {
+  width: 50%;
+  text-align: start;
+  color: gray;
+}
+
+.right {
+  width: 65%;
+  padding: 0 40px;
+}
+
+.right .left__heading {
+  border-bottom: 2px solid #5295d8;
+}
+
+.cell__text {
+  font-size: 0.4rem;
+  padding-bottom: 10px;
+}
+
+.cell__code {
+  font-size: 0.4rem;
+  background-color: #b8c8dc;
+  border-radius: 10px;
+}
+
+.footer {
+  background: linear-gradient(90deg, #5295d8 4%, #b8c8dc 99%);
+}
+
+.footer__list {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  padding: 30px;
+}
+
+.footer__icon {
+  width: 70px;
+}
+
+.footer__text {
+  font-size: 0.3rem;
+}
+
+.copy {
+  display: flex;
+  justify-content: center;
+  font-size: 0.3rem;
+  padding: 10px 0;
+}
