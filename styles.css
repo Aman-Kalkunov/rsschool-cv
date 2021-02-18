@@ -1,8 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
 * {
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
 }
 
 html {
@@ -62,7 +64,7 @@ a {
   min-width: 350px;
   padding: 0 40px;
   text-align: center;
-  background: linear-gradient(#5295d8 4%, #b8c8dc 99%);
+  background-color: #5295d8;
 }
 
 .left__heading {
@@ -111,7 +113,7 @@ a {
 .cell__value {
   width: 50%;
   text-align: start;
-  color: gray;
+  color: #242a2f;
 }
 
 .right {
@@ -135,7 +137,7 @@ a {
 }
 
 .footer {
-  background: linear-gradient(90deg, #5295d8 4%, #b8c8dc 99%);
+  background: linear-gradient(90deg, #b8c8dc 4%, #5295d8 99%);
 }
 
 .footer__list {
@@ -151,6 +153,7 @@ a {
 
 .footer__text {
   font-size: 0.3rem;
+  color: #242a2f;
 }
 
 .copy {
